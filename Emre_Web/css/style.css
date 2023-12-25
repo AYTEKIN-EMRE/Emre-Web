@@ -1,0 +1,247 @@
+
+html{
+    scroll-behavior: smooth;
+}
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+  font-family: 'Playfair Display', serif;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+    background-color:  #735736 ;
+}
+
+.section_title{
+    margin-bottom: 30px;
+
+}
+
+.section_title h2{
+    position: relative;
+    text-align: center;
+    color: #eed9c4;
+    font-size: 30px;
+    transition: all.5s ease-in-out;
+}
+
+
+/* ############################# Header ###################################*/
+header{
+    background: #BFA27E;
+    border-bottom: 1px solid #c1a2a2; 
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+.nav_links{
+    display: flex;
+}
+.nav_links li a{
+    margin-left: 15px;
+    color:  #8C311C ;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all.5s ease-in-out;
+}
+
+.nav_links li a:hover{
+    background: #D9C6B0;
+}
+.logo h2 a{
+    color: #8C311C ;
+    text-transform: uppercase;
+} 
+/* ############################# ANASAYFA ###################################*/
+.inner_Anasayfa{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    color: #BFA27E ;
+}
+.child_Anasayfa{
+    flex-basis: 45%;
+}
+.child_Anasayfa h1{
+    font-size: 55px;
+    color:#BFA27E ;
+    margin-bottom: 4%;
+}
+.span_child{
+    font-size: 40px;
+    color: #8C311C ;
+    margin-bottom: 10px;
+}
+.child_Anasayfa p{
+    font-size: 25px;
+    color: #BFA27E ;
+    margin-bottom: 12px;
+}
+.btn{  
+  background: #8C311C;
+  padding: 12px 25px;
+  border-radius: 20px;
+  color: #BFA27E  ;
+  border: 1px solud #800000;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all.3s ease;
+}
+.btn:hover{
+  background: transparent;
+  letter-spacing: 2px;
+}
+
+/* ---------------Hizmetler---------- */
+.innerService{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: #D9C6B0;
+}
+.innerService_child{
+  flex-basis: 30%;
+  color: #D9C6B0;
+  padding: 25px 20px ;
+  background: #8C311C;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all .5s ease-in-out;
+}
+.innerService_child:hover{
+  border: 1px solid #BFA27E
+}
+.innerService_child .icon{
+  font-size: 25px;
+  color: #D9C6B0;
+}
+.innerService_child h3{
+  font-size: 20px;
+  margin: 5px 0;
+}
+.innerService_child p{
+  font-size: 16px;
+}
+
+/* ---------------Hakkımızda --------- */
+
+
+.innerAbout_child{
+  display:flexbox ; 
+  overflow: hidden;
+  flex-basis: 50%;
+  font-size: 16px;
+  color: #D9C6B0;
+  padding: 25px 20px ;
+  background: #4e403b;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  margin: auto;
+  
+}
+.innerAbout_child:hover{
+  
+  border: 1px solid #BFA27E
+}
+.innerAbout_child p{
+  font-size: 25px;
+  text-align: justify;
+  color: #D9C6B0;
+ 
+ 
+}
+
+.innerAbout_child p nav{
+  font-size: 25px;
+  
+}
+.innerAbout_child img{
+  width: 197px; /* Resmin genişliği */
+  height: 228px; /* Resmin yüksekliği */
+  
+  float: left;
+  padding: 0 20px 20px 0;
+  border: 2px; /* Kenarlık eklemek için */
+  
+}
+
+/* PROJELER */
+
+.innerProject_child{
+  display:flexbox ; 
+  overflow: hidden;
+  flex-basis: 50%;
+  font-size: 16px;
+  color: #D9C6B0;
+  padding: 25px 20px ;
+  background: #4e403b;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  margin: auto;
+}
+.innerProject_child p{
+  font-size: 25px;
+  text-align: justify;
+  color: #D9C6B0;
+
+}
+
+/* İLETİŞİM */
+.innerCommunication{
+   display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.innerCommunication_child{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 30vw;
+  min-height: 30vh;
+  
+}
+.circle-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #BFA27E;
+  color: #D9C6B0 ;
+  font-size: 30px;
+  border-radius:60px ;
+}
+a{
+  text-decoration: none;
+}
+.circle-div:hover{
+  background-color: transparent;
+  color: blueviolet;
+  border: 1px solid #D9C6B0;
+}
